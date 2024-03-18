@@ -28,4 +28,8 @@ It is difficult to often achieve your desired result in one query, so transactio
 > [!NOTE]
 > Even if you do not explicitly call `BEGIN TRANSACTION` and `COMMIT`, submitting a query to database will **always happen inside a transaction.** The transaction beginning and ending is just done for you.
 
+### Transactions in practice
 
+It is perfectly normal for a transaction to *read* some data. For example, it can be useful to use a transaction to generate a report which represents a snapshot of one point in time.
+
+However, transactions can be subject to **read phenomena** which can interfere with the integrity of the data within the transaction. Read phenomena is covered in ./3_isolation.md.
