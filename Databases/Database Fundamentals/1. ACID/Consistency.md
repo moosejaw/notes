@@ -1,4 +1,5 @@
 #databases #acid #consistency #foreign_keys #referential_integrity #eventual_consistency #replication_over_time
+
 Some databases tend to sacrifice consistency in favour of speed.
 
 Consistency generally represents two main things:
