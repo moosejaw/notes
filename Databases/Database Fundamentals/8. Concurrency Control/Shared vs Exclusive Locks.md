@@ -1,5 +1,3 @@
-# Shared vs. Exclusive Locks
-
 ## Exclusive locks
 
 Exclusive locks represent an exclusive hold over a value. i.e., nobody else can read the value. (Exclusive privileges.)
@@ -15,4 +13,3 @@ If somebody attempts to write to a value on which a shared lock exists, they wil
 ## Why locks?
 
 Locks were introduced to DBMSs to achieve **consistency** - one of the aspects of ACID.
-
