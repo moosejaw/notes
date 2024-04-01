@@ -1,4 +1,4 @@
-#databases #indexes #query_optimisation 
+f#databases #indexes #query_optimisation 
 
 `SELECT *` will perform a `seq scan` - which is a table scan.
 
