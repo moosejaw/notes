@@ -1,5 +1,7 @@
 #aws #s3 #aws-cli
 
+Adapted from StackOverflow answer: https://stackoverflow.com/a/54378943
+
 Replace `<bucket_name>` with the name of the bucket (just the bucket name, and not the S3 URI format).
 
 Replace `<prefix>` with the prefix (or folders) to be searched.
